@@ -1,0 +1,36 @@
+# Macro file for example B1
+# 
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+# Change the default number of workers (in multi-threading mode) 
+#/run/numberOfThreads 4
+#
+# Initialize kernel
+/run/initialize
+#
+/control/verbose 0
+/run/verbose 0
+# 
+# gamma 6 MeV to the direction (0.,0.,1.)
+#
+/gps/particle gamma
+#/gps/pos/type point
+#/gps/pos/position -6 0 0 cm
+# 点源各向同性
+#/gps/angle/type iso
+#/gps/direction 1 0 0
+
+# 面源的束流
+/gps/particle gamma
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/centre -6 0 0 cm
+/gps/pos/rot1 0 0 -1
+/gps/pos/rot2 0 1 0
+/gps/pos/halfx 2.75 cm
+/gps/pos/halfy 5 cm
+/gps/ang/type planar
+/gps/direction 1 0 0
+/gps/ene/mono 10 MeV
+/run/beamOn 10000000
