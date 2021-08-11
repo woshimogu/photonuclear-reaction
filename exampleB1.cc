@@ -39,7 +39,6 @@
 #endif
 
 #include "G4UImanager.hh"
-#include "QBBC.hh"
 #include "QGSP_BIC_HP.hh"
 #include "G4VisExecutive.hh"
 #include "G4UIExecutive.hh"
@@ -74,21 +73,12 @@ int main(int argc,char** argv)
   G4VSteppingVerbose::SetInstance(new SteppingVerbose);
   G4RunManager* runManager = new G4RunManager;
 #endif
-/*#ifdef G4MULTITHREADED
-  G4MTRunManager* runManager = new G4MTRunManager;
-#else
-  G4RunManager* runManager = new G4RunManager;
-#endif*/
-    //G4RunManager * runManager = new G4RunManager;
 
-    // Set mandatory initialization classes
-    //
     //set mandatory initialization classes
     B1DetectorConstruction* det = new B1DetectorConstruction();
     runManager->SetUserInitialization(det);
 
-    //PhysicsList* phys = new PhysicsList;
-    /*考虑电磁相互*/
+    /*考虑电磁相互过程,使用HP模型.*/
     G4VModularPhysicsList* phys = new QGSP_BIC_HP();
     runManager->SetUserInitialization(phys);
 

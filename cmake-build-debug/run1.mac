@@ -15,11 +15,11 @@
 # gamma 6 MeV to the direction (0.,0.,1.)
 #
 /gps/particle gamma
-#/gps/pos/type point
-#/gps/pos/position -6 0 0 cm
-# 点源各向同性
-#/gps/angle/type iso
-#/gps/direction 1 0 0
+##/gps/pos/type point
+##/gps/pos/position -6 0 0 cm
+## 点源各向同性
+##/gps/angle/type iso
+##/gps/direction 1 0 0
 
 # 面源的束流
 /gps/particle gamma
