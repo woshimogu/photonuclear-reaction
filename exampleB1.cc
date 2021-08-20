@@ -97,7 +97,6 @@ int main(int argc,char** argv)
     //
     G4VisManager* visManager = new G4VisExecutive;
     // G4VisExecutive can take a verbosity argument - see /vis/verbose guidance.
-    // G4VisManager* visManager = new G4VisExecutive("Quiet");
     visManager->Initialize();
 
     // Get the pointer to the User Interface manager
