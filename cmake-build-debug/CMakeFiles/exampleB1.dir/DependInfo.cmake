@@ -1,51 +1,21 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mogu/Downloads/gfReaction/exampleB1.cc" "/home/mogu/Downloads/gfReaction/cmake-build-debug/CMakeFiles/exampleB1.dir/exampleB1.cc.o"
-  "/home/mogu/Downloads/gfReaction/src/B1ActionInitialization.cc" "/home/mogu/Downloads/gfReaction/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o"
-  "/home/mogu/Downloads/gfReaction/src/B1DetectorConstruction.cc" "/home/mogu/Downloads/gfReaction/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o"
-  "/home/mogu/Downloads/gfReaction/src/B1EventAction.cc" "/home/mogu/Downloads/gfReaction/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o"
-  "/home/mogu/Downloads/gfReaction/src/B1PrimaryGeneratorAction.cc" "/home/mogu/Downloads/gfReaction/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o"
-  "/home/mogu/Downloads/gfReaction/src/B1Run.cc" "/home/mogu/Downloads/gfReaction/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1Run.cc.o"
-  "/home/mogu/Downloads/gfReaction/src/B1RunAction.cc" "/home/mogu/Downloads/gfReaction/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o"
-  "/home/mogu/Downloads/gfReaction/src/B1SteppingAction.cc" "/home/mogu/Downloads/gfReaction/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "G4INTY_USE_QT"
-  "G4INTY_USE_XT"
-  "G4LIB_BUILD_DLL"
-  "G4UI_USE_QT"
-  "G4UI_USE_TCSH"
-  "G4UI_USE_XM"
-  "G4VIS_USE_OPENGL"
-  "G4VIS_USE_OPENGLQT"
-  "G4VIS_USE_OPENGLX"
-  "G4VIS_USE_OPENGLXM"
-  "G4VIS_USE_RAYTRACERX"
-  "QT_CORE_LIB"
-  "QT_GUI_LIB"
-  "QT_OPENGL_LIB"
-  "QT_PRINTSUPPORT_LIB"
-  "QT_WIDGETS_LIB"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../include"
-  "/home/mogu/Downloads/Geant4.10.07/geant4-install/include/Geant4"
-  "/usr/include/x86_64-linux-gnu/qt5"
-  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
-  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
-  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
-  "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
-  "/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"
-  "/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/mogu/Documents/photonuclear-reaction/exampleB1.cc" "CMakeFiles/exampleB1.dir/exampleB1.cc.o" "gcc" "CMakeFiles/exampleB1.dir/exampleB1.cc.o.d"
+  "/home/mogu/Documents/photonuclear-reaction/src/B1ActionInitialization.cc" "CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.d"
+  "/home/mogu/Documents/photonuclear-reaction/src/B1DetectorConstruction.cc" "CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o.d"
+  "/home/mogu/Documents/photonuclear-reaction/src/B1EventAction.cc" "CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o.d"
+  "/home/mogu/Documents/photonuclear-reaction/src/B1PrimaryGeneratorAction.cc" "CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.d"
+  "/home/mogu/Documents/photonuclear-reaction/src/B1Run.cc" "CMakeFiles/exampleB1.dir/src/B1Run.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/B1Run.cc.o.d"
+  "/home/mogu/Documents/photonuclear-reaction/src/B1RunAction.cc" "CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.d"
+  "/home/mogu/Documents/photonuclear-reaction/src/B1SteppingAction.cc" "CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.d"
   )
 
 # Targets to which this target links.
